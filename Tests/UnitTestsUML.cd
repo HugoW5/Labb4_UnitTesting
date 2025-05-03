@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tests.BookBorrowTests">
+    <Position X="6.25" Y="4.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAAIAAAAAAAAAgAAAAAAAAAABAQAAAAAAAAA=</HashCode>
+      <FileName>BookBorrowTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tests.BookLateReturnTests">
+    <Position X="2" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABCAAAACSAAAAACAIAAAAABBAAAAQAAA=</HashCode>
+      <FileName>BookLateReturnTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tests.BookManagementTests">
+    <Position X="2.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAEAAAEgAAAAAAAgBgAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>BookManagementTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tests.BookReturnTests">
+    <Position X="2.25" Y="3.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAASAUAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BookReturnTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tests.BookSearchTests">
+    <Position X="6.25" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAIABAAQAEIAAAAAAAIQAAAgCAAAAMAAAABASIAAA=</HashCode>
+      <FileName>BookSearchTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
