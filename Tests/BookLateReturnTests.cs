@@ -72,6 +72,22 @@ namespace Tests
 		}
 
 		[TestMethod]
+		public void ReturnLate_Book_Calculate_LateFee_ExtremelyLate()
+		{
+			// Arrange
+			var library = new LibrarySystem();
+			var book = new Book("1984", "George Orwell", "1234", 1949);
+			library.AddBook(book);
+			library.BorrowBook("1234");
+
+			// Assert
+			decimal lateFee = library.CalculateLateFee("1234", 10000);
+			decimal expectedFee = 10000 * 0.5m;
+			Assert.AreEqual(expectedFee, lateFee);
+		}
+
+
+		[TestMethod]
 		public void ReturnLate_CalculateLateFee_BookNotFound_ShouldReturnZero()
 		{
 			// Arrange

@@ -1,0 +1,36 @@
+LibrarySystem.cs/CalculateLateFee/87
+Gör fel beräkning av kostnad för försenad bok. Är nu dayslate + feePerDay, Men ska vara daysLate * feePerDay.
+-
+LibrarySystem.cs/IsBookOverdue/100
+Metoden har ingen kontroll för negativa värden på loanPeriodDays.
+-
+LibrarySystem.cs/AddBook/27
+Går att lägga till böcker med tom sträng ISBN-nummer. Det ska vara ett krav att ha ett ISBN-nummer för att kunna lägga till en bok.
+-
+LibrarySystem.cs/AddBook/27
+Går att lägga till böcker med null ISBN-nummer. Det ska vara ett krav att ha ett ISBN-nummer för att kunna lägga till en bok.
+-
+LibrarySystem.cs/AddBook/27
+Det går att lägga till böcker med duplikat ISBN-nummer. Det ska vara ett krav att ha ett unikt ISBN-nummer för att kunna lägga till en bok.
+-
+LibrarySystem.cs/RemoveBook/33
+Det går att ta bort utlånad bok. Det ska inte vara möjligt att ta bort en bok som är utlånad.
+-
+LibrarySystem.cs/ReturnBook/71
+Systemet återställer inte utlånedatumet för boken när den returneras. Den borde återställa utlånedatumet för boken när den returneras.
+-
+LibrarySystem.cs/SearchByTitle/49
+Söker endast på exakt matchning av titeln. Det borde vara möjligt att söka på del av titeln också.
+-
+LibrarySystem.cs/SearchByTitle/49
+Är inte skiftlägesokänslig. Det borde vara möjligt att söka på titeln utan att ta hänsyn till skiftläget.
+-
+LibrarySystem.cs/SearchByAuthor/54
+Om man söker med en tom sträng så returneras alla böcker. 
+-
+LibrarySystem.cs/SearchByAuthor/54
+Det går att söka med null sträng. Det borde inte vara möjligt att söka med en null sträng.
+-
+LibrarySystem.cs/SearchByISBN/44
+Det går inte att söka med del matchning av ISBN-nummer. Det borde vara möjligt att söka med del matchning av ISBN-nummer.
+
